@@ -4,7 +4,7 @@
   "description": "Teste de npx com mcp",
   "main": "index.js",
   "bin": {
-    "mcp-teste": "node index.js"
+    "mcp-teste": "./index.js"
   },
   "scripts": {
     "test": "node index.js"
