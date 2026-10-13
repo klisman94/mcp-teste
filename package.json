@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Teste de npx com mcp",
   "main": "index.js",
+  "bin": {
+    "mcp-teste": "index.js"
+  },
   "scripts": {
     "test": "node index.js"
   },
