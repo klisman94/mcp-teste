@@ -1,18 +1,16 @@
 {
-  "name": "mcp-teste",
+  "name": "mcp-server",
   "version": "1.0.0",
-  "description": "Teste de npx com mcp",
-  "main": "index.js",
-  "bin": {
-    "mcp-teste": "./index.js"
-  },
+  "description": "Servidor MCP para consultar",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "node index.js"
+    "start": "node server-sap-http.js"
   },
-  
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "type": "commonjs"
-  
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.0",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0"
+  }
 }
